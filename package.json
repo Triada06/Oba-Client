@@ -1,0 +1,28 @@
+{
+  "name": "oba-marketplace",
+  "version": "1.0.0",
+  "description": "Azerbaijani marketplace with AI-powered features and drawing game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "ecommerce",
+    "marketplace",
+    "azerbaijan",
+    "ai",
+    "react",
+    "nodejs"
+  ],
+  "author": "Oba Marketplace Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+  }
+}
