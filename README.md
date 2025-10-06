@@ -41,17 +41,6 @@ A modern e-commerce platform for Azerbaijan with AI-powered recommendations and 
 - **React Hook Form** - Form handling
 - **React Hot Toast** - Notifications
 
-### Backend
-- **Node.js** - JavaScript runtime
-- **Express.js** - Web framework
-- **MongoDB** - NoSQL database
-- **Mongoose** - MongoDB object modeling
-- **JWT** - Authentication
-- **bcryptjs** - Password hashing
-- **OpenAI API** - AI features
-- **Cloudinary** - Image storage
-- **Multer** - File uploads
-
 ## Getting Started
 
 ### Prerequisites
@@ -117,13 +106,6 @@ oba-marketplace/
 │   │   └── App.jsx          # Main app component
 │   ├── package.json
 │   └── vite.config.js
-├── backend/                  # Node.js backend API
-│   ├── models/              # Database models
-│   ├── routes/              # API routes
-│   ├── middleware/          # Custom middleware
-│   ├── config/              # Configuration files
-│   ├── server.js            # Main server file
-│   └── package.json
 ├── package.json             # Root package.json
 └── README.md
 ```
